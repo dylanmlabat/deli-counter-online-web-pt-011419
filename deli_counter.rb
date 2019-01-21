@@ -6,4 +6,4 @@ def line(katz_deli)
   else
   line = []
     katz_deli.each_with_index do |name, position|
-      
+      line << 
