@@ -7,3 +7,5 @@ def line(katz_deli)
   line = []
     katz_deli.each_with_index do |name, position|
       line << ""
+    end
+    puts "The line is currently:"
