@@ -6,7 +6,7 @@ def line(katz_deli)
   else
   line = []
     katz_deli.each_with_index do |name, position|
-      line << "#{position}. #{name}"
+      line << "#{position + 1}. #{name}"
     end
     puts "The line is currently: #{line.join(" ")}"
   end
